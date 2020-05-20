@@ -27,6 +27,10 @@ Il faut suivre les instructions suivantes :
 
 4. [Cloner le dépôt](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Version-Jaune), et vérifier que vous pouvez lancer le jeu, et charger la sauvegarde. Vérifier que vous pouvez sauvegarder, puis ensuite prenez l'habitude de lancer une session de jeu avec `make play`, qui automatise l'algorithme de gestion de conflit de jeux (cf. explications ci-dessous).
 
+5. Si vous n'avez jamais joué à un jeu de la série des Fire Emblem, je vous encourage à faire le tutoriel (cf. [ce ticket](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem/issues/6)) ou à regarder la vidéo suivante que j'ai enregistrée et ajoutée sur YouTube pour montrer le tutoriel :
+
+[![https://youtu.be/NPa1rpDcqV8](http://i3.ytimg.com/vi/NPa1rpDcqV8/maxresdefault.jpg)](https://youtu.be/NPa1rpDcqV8)
+
 ### Avec le `Makefile`
 
 Une fois le dépôt cloné, si vous êtes sous GNU/Linux ou Mac OS, le [fichier `Makefile`](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem/blob/master/Makefile) donne quelques commandes pour automatiser certaines choses 
