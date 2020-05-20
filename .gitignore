@@ -1,0 +1,8 @@
+# on ne peut pas sauvegarder les ROM ici
+*.gba
+
+# fichiers inutiles
+*~
+.*.swp
+
+.vscode/
