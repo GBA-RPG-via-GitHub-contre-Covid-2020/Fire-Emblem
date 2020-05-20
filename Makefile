@@ -36,6 +36,7 @@ start_playing_vba:
 	vba --video-4x Fire_Emblem_Europe.gba
 
 play:	check_free_slot commit_start start_playing commit_done
+play_mgba_old:	check_free_slot commit_start start_playing_mgba_old commit_done
 play_mgba:	check_free_slot commit_start start_playing_mgba commit_done
 play_vba:	check_free_slot commit_start start_playing_vba commit_done
 

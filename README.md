@@ -9,13 +9,14 @@
 
 ---
 
-# Discord
+## Discord
 
 Venez discuter sur [ce serveur Discord](https://discord.gg/e74Fy7) ! Dans le canal **"Fire Emblem"**.
 
-# Foire aux questions
+## Foire aux questions
 
-## Comment jouer ?
+### Comment jouer ?
+
 Il faut suivre les instructions suivantes :
 
 1. Créer un compte GitHub, ajouter [une étoile au projet](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem/stargazers) (ou au [méta projet](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/GBA-RPG-via-GitHub-contre-Covid-2020.github.io)). Je vous invite à devenir membre de l'organisation, puis [il vous faut éditer ce fichier](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/GBA-RPG-via-GitHub-contre-Covid-2020.github.io/blob/master/whois.md) sans faire de fusio-demande (= *pull request*).
@@ -26,7 +27,7 @@ Il faut suivre les instructions suivantes :
 
 4. [Cloner le dépôt](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Version-Jaune), et vérifier que vous pouvez lancer le jeu, et charger la sauvegarde. Vérifier que vous pouvez sauvegarder, puis ensuite prenez l'habitude de lancer une session de jeu avec `make play`, qui automatise l'algorithme de gestion de conflit de jeux (cf. explications ci-dessous).
 
-## Avec le `Makefile`
+### Avec le `Makefile`
 
 Une fois le dépôt cloné, si vous êtes sous GNU/Linux ou Mac OS, le [fichier `Makefile`](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem/blob/master/Makefile) donne quelques commandes pour automatiser certaines choses 
 
@@ -40,9 +41,9 @@ Une fois le dépôt cloné, si vous êtes sous GNU/Linux ou Mac OS, le [fichier 
 
 ---
 
-# Questions à propos du jeu
+## Questions à propos du jeu
 
-## Qui est en train de jouer ?
+### Qui est en train de jouer ?
 
 > Il faut regarder [l'auteur du dernier commit](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem/commits/master), qui a commencé sa session de jeu avec un commit dont le message commence par `"START ..."`.
 
@@ -50,7 +51,7 @@ Une fois le dépôt cloné, si vous êtes sous GNU/Linux ou Mac OS, le [fichier 
 
 > La ligne précédente est normalement [mise à jour automatiquement](update_readme_start.sh).
 
-## Qui joue ensuite ?
+### Qui joue ensuite ?
 
 - Il n'y a pas et *il n'y aura pas* de mécanisme de file d'attente : dès que le joueur courant arrête, c'est-à-dire qu'elle a terminé sa session de jeu (avec un commit dont le message commence par `"END ..."`), n'importe qui peut venir jouer et prendre le relai !
 
@@ -60,55 +61,36 @@ Une fois le dépôt cloné, si vous êtes sous GNU/Linux ou Mac OS, le [fichier 
 
 - Donc je me répète : pas de mécanisme de file d'attente, et on reste calme et pas trop réactif pour éviter les bogues !
 
-## Qui a joué quand ?
+### Qui a joué quand ?
 
 > Il faut regarder [l'historique des commits](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem/commits/master). Vous pouvez aussi consulter [ce fichier `whoPlayedWhen.log`](whoPlayedWhen.log).
 
 Dernière ligne de l'historique :
 
-- Edouard Leurent (3 minutes ago) : DONE eleur termine, auto commit avec 'make commit_done' (commit f6ca096) ;
-- Edouard Leurent (20 minutes ago) : START eleur commence, auto commit avec 'make commit_start' (commit ab24ae1) ;
-- Remi100fa1000 (14 hours ago) : DONE remib termine, auto commit avec 'make commit_done' (commit d7c9381) ;
-- Remi100fa1000 (14 hours ago) : START remib commence, auto commit avec 'make commit_start' (commit ec54f8d) ;
-- Lilian Besson (15 hours ago) : DONE lilian termine, auto commit avec 'make commit_done' (commit a12d397) ;
-- Lilian Besson (15 hours ago) : START lilian commence, auto commit avec 'make commit_start' (commit 22da759) ;
-- Edouard Leurent (16 hours ago) : DONE  termine, auto commit avec 'make commit_done' (commit f79bbca) ;
-- Edouard Leurent (16 hours ago) : START  commence, auto commit avec 'make commit_start' (commit 95cba29) ;
-- Lilian Besson (24 hours ago) : DONE lilian termine, auto commit avec 'make commit_done' (commit 336da34) ;
-- Lilian Besson (24 hours ago) : START lilian commence, auto commit avec 'make commit_start' (commit 3390a96) ;
+TODO
 
 > La ligne précédente est normalement [mise à jour automatiquement](update_readme_done.sh).
 
-## Dernière question ?
+### Dernière question ?
+
 - [Posez une question](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/Fire-Emblem/issues/new) en ouvrant un ticket.
 
 ---
 
-# Où en est-on dans l'aventure ?
+## Où en est-on dans l'aventure ?
+
 - Au tout début !
 
-## Où est-on dans le jeu ?
+### Où est-on dans le jeu ?
+
 - [Regardez dans ce dossier](screenshots/)
 - TODO tout le monde doit prendre l'habitude de finir sa session de jeu en faisant une capture d'écran dans ce dossier !
-  > Il faut juste montrer où on se trouve le héros dans le monde extérieur.
-
-## Où en est-on dans la progression des badges ?
-- [Regardez dans ce dossier](screenshots_badges/)
-- TODO tout le monde doit prendre l'habitude de finir sa session de jeu en faisant une capture d'écran dans ce dossier !
-  > Il faut juste montrer *le menu avec les badges et l'argent*.
-
-## Où est-on sur la carte ?
-- [Regardez dans ce dossier](screenshots_maps/)
-- TODO tout le monde doit prendre l'habitude de finir sa session de jeu en faisant une capture d'écran dans ce dossier !
-  > Il faut juste montrer où on se trouve le héros *sur la carte*.
-
-## Quelle est l'équipe actuelle ?
-- [Regardez dans ce dossier](screenshots_teams/)
-- TODO tout le monde doit prendre l'habitude de finir sa session de jeu en faisant une capture d'écran dans ce dossier !
+  > Il faut juste montrer où on se trouve l'aventure.
 
 ---
 
 ## :scroll: License ? [![GitHub license](https://img.shields.io/github/license/GBA-RPG-via-GitHub-contre-Covid-2020/meta.svg)](https://github.com/GBA-RPG-via-GitHub-contre-Covid-2020/meta/blob/master/LICENSE)
+
 MIT Licensed (file [LICENSE](LICENSE)).
 © [Lilian Besson](https://GitHub.com/Naereen), 2020.
 
